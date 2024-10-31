@@ -3481,6 +3481,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abea65c-cc0d-46e0-9bed-7830ec9a434e")
+	)
+	(wire
+		(pts
 			(xy 96.52 165.1) (xy 96.52 149.86)
 		)
 		(stroke
@@ -3708,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "87f4102a-22c2-4e81-81d3-e1f9cfbb58d5")
+	)
+	(wire
+		(pts
+			(xy 170.18 121.92) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba01975-42a5-4d43-964b-782052ad8627")
 	)
 	(wire
 		(pts
@@ -4131,16 +4151,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 121.92) (xy 177.8 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db943409-79ae-4e17-ad76-1599b051e3d7")
-	)
-	(wire
-		(pts
 			(xy 66.04 172.72) (xy 67.31 172.72)
 		)
 		(stroke
@@ -4308,16 +4318,6 @@
 			(type default)
 		)
 		(uuid "fb11bd75-d3e5-4809-9a58-2af00962b81d")
-	)
-	(wire
-		(pts
-			(xy 167.64 125.73) (xy 177.8 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc13f0dd-f0f2-40c9-a361-02a33f321202")
 	)
 	(global_label "col1"
 		(shape input)
@@ -5943,6 +5943,73 @@
 			(project "kicad"
 				(path "/0f30e58f-d136-47bb-bd23-5df2db91482a"
 					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21e80799-eca3-4241-b02f-5d1d8039e1b3")
+		(property "Reference" "R2"
+			(at 166.37 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 166.37 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bc73141-a2e9-4094-bf0f-98de46929e4b")
+		)
+		(pin "1"
+			(uuid "5a5e7463-13a4-4069-a651-d1b7307226a3")
+		)
+		(instances
+			(project ""
+				(path "/0f30e58f-d136-47bb-bd23-5df2db91482a"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10745,6 +10812,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 166.37 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aab31726-5854-493e-8af5-e6311a665fc0")
+		(property "Reference" "R3"
+			(at 166.37 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 166.37 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6350bfd-05fe-49a2-8ad9-d4cfec82a176")
+		)
+		(pin "1"
+			(uuid "b4bc3e61-e1f8-4dce-a7cc-a21cbb78010c")
+		)
+		(instances
+			(project "keyboard"
+				(path "/0f30e58f-d136-47bb-bd23-5df2db91482a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 157.48 88.9 0)
 		(unit 1)
@@ -12126,73 +12260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 165.1 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e735b901-67fc-4eac-aee4-8ace086e6911")
-		(property "Reference" "C2"
-			(at 165.1 131.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 165.1 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e292aab6-bed7-4f71-a17a-b2cded7b170f")
-		)
-		(pin "1"
-			(uuid "d2f0cf16-3059-4d32-b5ed-cab875284ee2")
-		)
-		(instances
-			(project "kicad"
-				(path "/0f30e58f-d136-47bb-bd23-5df2db91482a"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 81.28 38.1 0)
 		(unit 1)
@@ -12255,74 +12322,6 @@
 			(project "kicad"
 				(path "/0f30e58f-d136-47bb-bd23-5df2db91482a"
 					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 165.1 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f26d516b-44d1-4e9a-aa34-22179622c6b8")
-		(property "Reference" "C1"
-			(at 165.0936 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 165.0936 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30997911-687f-41d0-bce1-4b5cf580fc6f")
-		)
-		(pin "1"
-			(uuid "4ea1dfee-bb0a-47d1-857d-46fa5ea1f982")
-		)
-		(instances
-			(project ""
-				(path "/0f30e58f-d136-47bb-bd23-5df2db91482a"
-					(reference "C1")
 					(unit 1)
 				)
 			)
