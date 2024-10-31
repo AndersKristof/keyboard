@@ -5117,7 +5117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 165.1 78.74 0)
 			(effects
 				(font
@@ -5271,7 +5271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 88.9 53.34 0)
 			(effects
 				(font
@@ -5357,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 63.5 53.34 0)
 			(effects
 				(font
@@ -5443,7 +5443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 165.1 40.64 0)
 			(effects
 				(font
@@ -5598,7 +5598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -5752,7 +5752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB"
 			(at 208.28 83.82 0)
 			(effects
 				(font
@@ -5820,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 190.5 91.44 0)
 			(effects
 				(font
@@ -5906,7 +5906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 208.28 71.12 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 139.7 53.34 0)
 			(effects
 				(font
@@ -6526,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.02 154.94 0)
 			(effects
 				(font
@@ -6594,7 +6594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 63.5 40.64 0)
 			(effects
 				(font
@@ -6680,7 +6680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 190.5 53.34 0)
 			(effects
 				(font
@@ -6766,7 +6766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 63.5 78.74 0)
 			(effects
 				(font
@@ -7054,7 +7054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 55.88 83.82 0)
 			(effects
 				(font
@@ -7399,7 +7399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 215.9 40.64 0)
 			(effects
 				(font
@@ -7619,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -7705,7 +7705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -7898,7 +7898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 114.3 78.74 0)
 			(effects
 				(font
@@ -8186,7 +8186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -8254,7 +8254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 88.9 40.64 0)
 			(effects
 				(font
@@ -8340,7 +8340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -8426,7 +8426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 165.1 53.34 0)
 			(effects
 				(font
@@ -8511,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.93 111.76 0)
 			(effects
 				(font
@@ -8940,7 +8940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -9094,7 +9094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -9430,7 +9430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 114.3 91.44 0)
 			(effects
 				(font
@@ -9516,7 +9516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -9602,7 +9602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 139.7 78.74 0)
 			(effects
 				(font
@@ -9688,7 +9688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -9774,7 +9774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 139.7 40.64 0)
 			(effects
 				(font
@@ -9996,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -10082,7 +10082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 215.9 66.04 0)
 			(effects
 				(font
@@ -10168,7 +10168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -10253,7 +10253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 130.81 0)
 			(effects
 				(font
@@ -10457,7 +10457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 114.3 66.04 0)
 			(effects
 				(font
@@ -10543,7 +10543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -10769,7 +10769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -11173,7 +11173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.69 111.76 0)
 			(effects
 				(font
@@ -11241,7 +11241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -11392,7 +11392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 142.24 0)
 			(effects
 				(font
@@ -11664,7 +11664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 208.28 58.42 0)
 			(effects
 				(font
@@ -11732,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 114.3 40.64 0)
 			(effects
 				(font
@@ -11956,7 +11956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical_Hole"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 101.6 165.1 0)
 			(effects
 				(font
@@ -12027,7 +12027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 215.9 53.34 0)
 			(effects
 				(font
@@ -12113,7 +12113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -12199,7 +12199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -12353,7 +12353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -12439,7 +12439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_AnodeUp"
 			(at 215.9 91.44 0)
 			(effects
 				(font
