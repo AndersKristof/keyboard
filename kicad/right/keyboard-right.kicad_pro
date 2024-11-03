@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.1,
-          "height": 2.1,
-          "width": 2.1
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,9 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|213750000|63150000|2b143e0c-5dca-4608-b222-5dc8784274e6|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -433,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "keyboard.kicad_pro",
+    "filename": "keyboard-right.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -468,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
