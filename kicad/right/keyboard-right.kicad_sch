@@ -1512,9 +1512,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -2.54 -30.48 90)
-					(length 2.54) hide
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -2419,6 +2419,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ec20970-b064-4df4-9dbe-d32b07bb64b9")
+	)
+	(junction
+		(at 68.58 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f67671-312e-4141-91ef-6bbb80cc4523")
 	)
 	(junction
 		(at 142.24 68.58)
@@ -3344,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 172.72) (xy 68.58 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c880ac-2a30-43ce-96a9-f8b4ae4618f5")
+	)
+	(wire
+		(pts
 			(xy 218.44 68.58) (xy 228.6 68.58)
 		)
 		(stroke
@@ -3762,7 +3778,7 @@
 			)
 		)
 	)
-	(global_label "col1"
+	(global_label "col7"
 		(shape input)
 		(at 50.8 25.4 90)
 		(fields_autoplaced yes)
@@ -3982,7 +3998,7 @@
 			)
 		)
 	)
-	(global_label "col7"
+	(global_label "col1"
 		(shape input)
 		(at 203.2 25.4 90)
 		(fields_autoplaced yes)
