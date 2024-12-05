@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
+    <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
+    <avrdevice>AVR64DU32</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>du-keyboard-firmware</AssemblyName>
+    <Name>du-keyboard-firmware</Name>
+    <RootNamespace>du-keyboard-firmware</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress />
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue />
+    <BootSegment>2</BootSegment>
+    <ResetRule>0</ResetRule>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <EraseKey />
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.52.0" />
+        </dependencies>
+      </framework-data>
+    </AsfFrameworkConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.Device>-mmcu=avr64du32 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\2.6.303\gcc\dev\avr64du32"</avrgcc.common.Device>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>NDEBUG</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\2.6.303\include\</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.assembler.general.IncludePaths>
+          <ListValues>
+            <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\2.6.303\include\</Value>
+          </ListValues>
+        </avrgcc.assembler.general.IncludePaths>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.Device>-mmcu=avr64du32 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\2.6.303\gcc\dev\avr64du32"</avrgcc.common.Device>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>DEBUG</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\2.6.303\include\</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.level>Optimize debugging experience (-Og)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.assembler.general.IncludePaths>
+          <ListValues>
+            <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\2.6.303\include\</Value>
+          </ListValues>
+        </avrgcc.assembler.general.IncludePaths>
+        <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="keyboard\keyboard_layout.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="modules\port.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="modules\port.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="modules\rtc.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="modules\rtc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\src\usb0.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_common_elements.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_descriptors.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_descriptors.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_events.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_events.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests_device.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests_device.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests_endpoint.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests_endpoint.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests_interface.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_requests_interface.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_transfer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_core_transfer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-common\usb_protocol_headers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid_keyboard.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid_keyboard.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid_keycodes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid_mouse.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid_mouse.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid_transfer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_hid_transfer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-hid\usb_protocol_hid.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-peripheral\usb_peripheral.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-peripheral\usb_peripheral.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-peripheral\usb_peripheral_avr_du.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-peripheral\usb_peripheral_endpoint.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-peripheral\usb_peripheral_endpoint.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-peripheral\usb_peripheral_read_write.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb-peripheral\usb_peripheral_read_write.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb_config.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb_descriptors.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb_descriptors.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb_device.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usb\usb_device.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="modules" />
+    <Folder Include="keyboard" />
+    <Folder Include="usb" />
+    <Folder Include="usb\src" />
+    <Folder Include="usb\usb-common" />
+    <Folder Include="usb\usb-hid" />
+    <Folder Include="usb\usb-peripheral" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>
