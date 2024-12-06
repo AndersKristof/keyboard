@@ -1,17 +1,12 @@
-#include <stdlib.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <util/delay.h>
 
-#include "main.h"
-#include "rtc.h"
 #include "port.h"
+#include "rtc.h"
+#include "twi.h"
 
 #include "keyboard_layout.h"
 #include "port_config.h"
-#include "usb0.h"
-
-#include <usb_device.h> // only for error handling
 
 #define F_CPU 24e6
 
@@ -19,21 +14,22 @@ void key_press(uint8_t row, uint8_t column);
 void key_release(uint8_t row, uint8_t column);
 
 uint8_t pin_driven_low = 0;
-uint8_t key_status[NUM_ROWS][NUM_COLUMNS] = {0};
+uint64_t key_status[NUM_ROWS][NUM_COLUMNS] = {0};
 
 int main(void)
 {
 	// Configure clock to 24 MHz
 	_PROTECTED_WRITE(CLKCTRL.OSCHFCTRLA, CLKCTRL_FRQSEL_24M_gc);
-	CLKCTRL.MCLKTIMEBASE = 24;
-	SYSCFG.VUSBCTRL = SYSCFG_USBVREG_bm;
-	
+    
 	rtc_init();
 	port_init();
 	twi_init();
-	USB0_Initialize();
 	
 	sei();
+	
+    while (1) 
+    {
+    }
 }
 
 void key_press(uint8_t row, uint8_t column)
@@ -41,7 +37,7 @@ void key_press(uint8_t row, uint8_t column)
 	if (!key_status[row][column])
 	{
 		key_status[row][column] = 1;
-		USB_HIDKeyPressDown(keyboard_layout[row][column]);
+		twi_transmit_key_press(keyboard_layout[row][column]);
 	}
 }
 
@@ -50,7 +46,7 @@ void key_release(uint8_t row, uint8_t column)
 	if (key_status[row][column])
 	{
 		key_status[row][column] = 0;
-		USB_HIDKeyPressUp(keyboard_layout[row][column]);
+		twi_transmit_key_release(keyboard_layout[row][column]);
 	}
 }
 
@@ -73,7 +69,7 @@ ISR(PORT_COLUMNS_vect)
 	if (PORT_COLUMNS.IN & 1<<column)
 	{
 		key_release(row, column);
-	} 
+	}
 	else
 	{
 		key_press(row, column);
@@ -103,3 +99,4 @@ ISR(RTC_PIT_vect)
 
 	RTC.PITINTFLAGS = RTC_PI_bm;
 }
+

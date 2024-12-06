@@ -120,7 +120,10 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="keyboard\keyboard_layout.h">
+    <Compile Include="config\keyboard_layout.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="config\port_config.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
@@ -136,6 +139,12 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="modules\rtc.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="modules\twi.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="modules\twi.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="usb\src\usb0.c">
@@ -267,7 +276,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="modules" />
-    <Folder Include="keyboard" />
+    <Folder Include="config" />
     <Folder Include="usb" />
     <Folder Include="usb\src" />
     <Folder Include="usb\usb-common" />
