@@ -1,6 +1,9 @@
 Prosjekt: Tastatur styrt med AVR mikrokontrollere
+
 Student: Anders Kristoffersen
+
 Veileder: Terje Mathiesen
+
 Kontaktperson hos problemeier: Atle Dyrnes
 
 # Innhold
